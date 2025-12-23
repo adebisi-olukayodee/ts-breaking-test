@@ -1,0 +1,16 @@
+{
+  "scenarioId": "S07",
+  "entryFile": "src/lib/index.ts",
+  "breakingRuleIds": [
+    "TSAPI-TYP-002"
+  ],
+  "impactedSymbols": [
+    "Cfg"
+  ],
+  "downstreamFiles": [
+    "src/app/consumer.ts"
+  ],
+  "affectedTests": [
+    "test/consumer.test.ts"
+  ]
+}
