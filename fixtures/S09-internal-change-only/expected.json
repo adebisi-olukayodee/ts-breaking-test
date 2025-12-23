@@ -1,0 +1,9 @@
+{
+  "scenarioId": "S09",
+  "entryFile": "src/lib/index.ts",
+  "breakingRuleIds": [],
+  "impactedSymbols": [],
+  "downstreamFiles": [],
+  "affectedTests": [],
+  "noImpact": true
+}

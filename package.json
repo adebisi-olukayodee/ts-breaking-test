@@ -1,13 +1,17 @@
 {
-  "name": "ts-breaking-test-repo",
+  "name": "impact-fixtures-harness",
+  "version": "0.1.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "typecheck": "tsc --noEmit"
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "format": "prettier -w ."
   },
   "devDependencies": {
-    "typescript": "^5.3.3",
-    "@types/react": "^18.2.0",
-    "@types/jest": "^29.5.0"
+    "@types/node": "^22.10.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.8"
   }
 }
